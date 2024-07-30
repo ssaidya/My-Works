@@ -1,0 +1,141 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-background: #151437;
+    --primary-text-color: #FFFFFF;
+  }
+  .navbar-toggler{
+    background: #7177f1;
+  }
+}
+
+@media (max-width: 1450px) {
+  .about_text {
+    left: 0;
+  }
+  .about_content {
+    padding: 30px;
+  }
+}
+@media (max-width: 1199px) {
+  .slider_left-content h1 {
+    line-height: 40px;
+  }
+  .works_btn {
+    text-align: start;
+  }
+}
+@media (max-width: 991px) {
+  .header-link,
+  .header-btn {
+    margin: 0;
+  }
+  .acc_img {
+    padding: 30px;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .accordion {
+    order: 2;
+  }
+  .accordion__body {
+    padding: 20px;
+  }
+  .works-item {
+    width: 50%;
+  }
+  .works-item:first-child .works_btn {
+    border-radius: 8px 0 0 0;
+  }
+  .works-item:last-child .works_btn {
+    border-radius: 0 0 8px 0;
+  }
+  .works-item:nth-of-type(2) .works_btn {
+    border-radius: 0 8px 0 0;
+  }
+  .works-item:nth-of-type(5) .works_btn {
+    border-radius: 0 0 0 8px;
+  }
+  .works_list {
+    padding: 0;
+  }
+  .tab-content {
+    padding: 0;
+    margin-top: 30px;
+  }
+  .footer_list {
+    padding: 0;
+  }
+  .footer {
+    margin: 50px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .slider_left-content h1 {
+    line-height: 30px;
+  }
+  .accordion__body {
+    padding-top: 0;
+  }
+  .works_title {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 575px) {
+  .slider_left-icon img {
+    width: 60px;
+  }
+  .slider_left-content a {
+    width: 250px;
+  }
+  .about_img {
+    width: 300px !important;
+    display: flex;
+    margin: 0 auto;
+  }
+  .about_text {
+    left: 10%;
+    padding: 20px;
+  }
+  .about {
+    padding-top: 50px;
+  }
+  .about_text {
+    left: 5%;
+  }
+  .works_list {
+    padding: 0 15px;
+  }
+  .works_title,
+  .works_text,
+  .works_img {
+    margin: 0 0 10px;
+  }
+  .works_link {
+    margin: 0;
+  }
+  .works_btn {
+    height: 60px;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .sliders-images {
+    height: 300px;
+  }
+  .about_content-text {
+    margin-bottom: 20px;
+  }
+  .about_content-link {
+    padding: 10px 20px;
+  }
+}
+@media (max-width: 400px) {
+  .slider_left-icon img {
+    width: 40px;
+  }
+  .works_link {
+    padding: 10px 40px;
+  }
+}
